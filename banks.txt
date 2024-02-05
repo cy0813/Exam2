@@ -27,12 +27,7 @@ class Slinea_Banks(Banks):
     def bank_title(self):                   # 獲得銀行名稱
         return self.title
 
-bank1 = Banks('Sam')                 
-print(bank1.bank_title())  
-bank1.save_money(500)                 
-bank1.get_balance()                    
-bank = Slinea_Banks()            
-print(bank.bank_title())  
+
 
 
 
